@@ -1,0 +1,6 @@
+{
+  "environment": "development",
+  "service": "vpc_service",
+  "action": "plan",
+  "approval": "auto-approve"
+}
