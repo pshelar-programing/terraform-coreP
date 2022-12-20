@@ -39,6 +39,7 @@ pipeline {
         script {
           tempConfig = getConfig()
           params.environment = tempConfig.config.environment
+          print params.environment
           if (params.environment == 'development') {
             aws_region = 'us-east-1'
             awsCredentials = 'lcp-terraform-dev'
